@@ -3,7 +3,7 @@ body {
   background: radial-gradient(
     circle,
     rgba(252, 230, 197, 1) 0%,
-    rgba(189, 245, 255, 1) 56%
+    rgb(144, 198, 214) 56%
   );
   font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
   margin-top: 50px;
@@ -12,7 +12,7 @@ body {
 p {
   font-size: 30px;
   font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
-  color: rgb(169, 210, 223);
+  color: rgb(138, 189, 204);
   text-align: center;
   background-color: rgb(240, 230, 223);
   border: 1.5px solid #ffffff;
@@ -34,7 +34,7 @@ p {
 #city-button {
   width: fit-content;
   transition: 150ms ease-in-out;
-  background-color: rgb(169, 210, 223);
+  background-color: rgb(138, 189, 204);
   color: seashell;
   border: 1.5px solid #ffffff;
   border-radius: 8px;
@@ -42,12 +42,12 @@ p {
 
 #city-button:hover {
   cursor: pointer;
-  color: rgb(169, 210, 223);
+  color: rgb(138, 189, 204);
   background-color: seashell;
 }
 
 h1 {
-  color: rgb(169, 210, 223);
+  color: rgb(138, 189, 204);
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 40px;
@@ -56,20 +56,20 @@ h1 {
 }
 
 h2 {
-  color: rgb(169, 210, 223);
+  color: rgb(138, 189, 204);
   font-size: 25px;
   font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 }
 
 h3 {
-  color: rgb(169, 210, 223);
+  color: rgb(138, 189, 204);
   font-size: 25px;
   text-transform: capitalize;
   font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 }
 
 h4 {
-  color: rgb(169, 210, 223);
+  color: rgb(138, 189, 204);
   margin-top: 10px;
   margin-bottom: -15px;
   font-size: 25px;
@@ -102,14 +102,13 @@ li {
 }
 
 #temperature {
-  color: rgb(169, 210, 223);
   margin: 15px;
   margin-left: 0;
   font-size: 50px;
   padding: 10px 30px;
   border: 1.5px solid #ffffff;
   box-sizing: border-box;
-  background-color: rgb(169, 210, 223);
+  background-color: rgb(138, 189, 204);
   border-radius: 8px;
   color: seashell;
   font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
@@ -163,7 +162,7 @@ hr {
 
 #celsius-link:hover {
   cursor: pointer;
-  color: rgb(169, 210, 223);
+  color: rgb(138, 189, 204);
   font-weight: 150;
   text-decoration: underline;
 }
@@ -177,7 +176,7 @@ hr {
 
 #fahrenheit-link:hover {
   cursor: pointer;
-  color: rgb(169, 210, 223);
+  color: rgb(138, 189, 204);
   font-weight: 150;
   text-decoration: underline;
 }
