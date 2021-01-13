@@ -1,0 +1,189 @@
+body {
+  background: rgb(252, 230, 197);
+  background: radial-gradient(
+    circle,
+    rgba(252, 230, 197, 1) 0%,
+    rgba(189, 245, 255, 1) 56%
+  );
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  margin-top: 50px;
+}
+
+p {
+  font-size: 30px;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  color: rgb(169, 210, 223);
+  text-align: center;
+  background-color: rgb(240, 230, 223);
+  border: 1.5px solid #ffffff;
+  border-radius: 8px;
+}
+
+.weather-app-wrapper {
+  margin: 20px auto;
+  max-width: 550px;
+}
+
+.weather-app {
+  padding: 20px;
+  border: 1.5px solid #ffffff;
+  border-radius: 8px;
+  background-color: rgb(240, 230, 223);
+}
+
+#city-button {
+  width: fit-content;
+  transition: 150ms ease-in-out;
+  background-color: rgb(169, 210, 223);
+  color: seashell;
+  border: 1.5px solid #ffffff;
+  border-radius: 8px;
+}
+
+#city-button:hover {
+  cursor: pointer;
+  color: rgb(169, 210, 223);
+  background-color: seashell;
+}
+
+h1 {
+  color: rgb(169, 210, 223);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+h2 {
+  color: rgb(169, 210, 223);
+  font-size: 25px;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+h3 {
+  color: rgb(169, 210, 223);
+  font-size: 25px;
+  text-transform: capitalize;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+h4 {
+  color: rgb(169, 210, 223);
+  margin-top: 10px;
+  margin-bottom: -15px;
+  font-size: 25px;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+#icon {
+  position: relative;
+  margin-top: 30px;
+  margin-left: 110px;
+  margin-bottom: 0;
+  height: 150px;
+  width: 150px;
+}
+
+ul {
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: grey;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+#temperature {
+  color: rgb(169, 210, 223);
+  margin: 15px;
+  margin-left: 0;
+  font-size: 50px;
+  padding: 10px 30px;
+  border: 1.5px solid #ffffff;
+  box-sizing: border-box;
+  background-color: rgb(169, 210, 223);
+  border-radius: 8px;
+  color: seashell;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+hr {
+  color: grey;
+  margin: 0;
+}
+
+.weather-forecast {
+  margin-top: 30px;
+}
+
+.weather-forecast h3 {
+  color: grey;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  height: 15px;
+  line-height: 15px;
+  padding-top: 7px;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+.weather-forecast img {
+  display: block;
+  margin: 0 auto;
+  height: 55px;
+  width: 55px;
+}
+
+.weather-forecast-temperature {
+  text-align: center;
+  color: grey;
+  font-size: 13px;
+  font-weight: 400;
+  height: auto;
+  line-height: 15px;
+  white-space: nowrap;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+#celsius-link {
+  color: grey;
+  font-size: 15px;
+  font-weight: 100;
+  transition: 150ms;
+  text-decoration: none;
+}
+
+#celsius-link:hover {
+  cursor: pointer;
+  color: rgb(169, 210, 223);
+  font-weight: 150;
+  text-decoration: underline;
+}
+
+#fahrenheit-link {
+  color: grey;
+  font-size: 15px;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+#fahrenheit-link:hover {
+  cursor: pointer;
+  color: rgb(169, 210, 223);
+  font-weight: 150;
+  text-decoration: underline;
+}
+
+#mid-link {
+  color: grey;
+  font-size: 15px;
+  font-weight: 100;
+}
