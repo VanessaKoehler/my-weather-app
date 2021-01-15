@@ -25,7 +25,7 @@ function formatHours(timestamp) {
     minutes = `0${minutes}`;
   }
 
-  return `${hours}:${minutes}`;
+  return `Last updated at ${hours}:${minutes}`;
 }
 
 function displayTemperature(response) {
