@@ -98,7 +98,7 @@ li {
   padding: 0;
   color: grey;
   font-size: 15px;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 #temperature {
@@ -155,7 +155,7 @@ hr {
 #celsius-link {
   color: grey;
   font-size: 15px;
-  font-weight: 100;
+  font-weight: 400;
   transition: 150ms;
   text-decoration: none;
 }
@@ -163,26 +163,27 @@ hr {
 #celsius-link:hover {
   cursor: pointer;
   color: rgb(138, 189, 204);
-  font-weight: 150;
+  font-weight: 450;
   text-decoration: underline;
 }
 
 #fahrenheit-link {
   color: grey;
   font-size: 15px;
-  font-weight: 100;
+  font-weight: 400;
+  transition: 150ms;
   text-decoration: none;
 }
 
 #fahrenheit-link:hover {
   cursor: pointer;
   color: rgb(138, 189, 204);
-  font-weight: 150;
+  font-weight: 450;
   text-decoration: underline;
 }
 
 #mid-link {
   color: grey;
   font-size: 15px;
-  font-weight: 100;
+  font-weight: 400;
 }
