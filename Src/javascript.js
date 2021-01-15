@@ -11,7 +11,7 @@ function formatDate(timestamp) {
     "Saturday"
   ];
   let day = days[date.getDay()];
-  return `Last updated on ${day} ${formatHours(timestamp)}, `;
+  return `Last updated on ${day} ${formatHours(timestamp)}`;
 }
 
 function formatHours(timestamp) {
